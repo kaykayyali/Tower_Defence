@@ -1,0 +1,69 @@
+body {
+	background-color: black;
+	overflow: hidden;
+}
+.main {
+	background-color: white;
+	width: 800px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tile_map {
+	vertical-align: top;
+	display: inline-block;
+	width: 500px;
+	height: 500px;
+}
+
+#chooser_wrap,
+#status_wrap {
+	vertical-align: top;
+	display: inline-block;
+	width: 150px;
+	height: 500px;
+}
+
+#chooser,
+#status {
+	height: 100%;
+	width: 100%;
+}
+
+#chooser_header,
+#status_header {
+	text-align: center;
+	border-bottom: 1px black solid;
+	padding: 5px;
+}
+
+#chooser_wrap {
+
+}
+
+#status_wrap {
+
+}
+
+.tile {
+	display: inline-block;
+	width: calc(100% / 20);
+	height: calc(100% / 20);
+}
+
+.black {
+	background-color: black;
+}
+
+.green {
+	background-color: green;
+}
+
+.brown {
+	background-color: brown;
+}
+
+.red {
+	background-color: red;
+}
